@@ -1,0 +1,71 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("v4mps hub", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Scripts")
+
+
+MainSection:NewButton("Ragdoll Engine", "best ragdoll engine script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
+end)
+
+MainSection:NewButton("T-Titans", "key: T-Titans^^77Battlegrounds!!Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Titans/main/Battle"))()
+end)
+
+MainSection:NewButton("Prison Life", "aimbot basically", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AeniHnuc"))()
+end)
+
+MainSection:NewButton("BAB", "build a boat op script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
+end)
+
+
+--MISC
+local Misc = Window:NewTab("Misc")
+local MiscSection = Misc:NewSection("Scripts")
+
+MiscSection:NewButton("Back/Front Flip", "ur fucking retarted", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/7wDcPtLk"))()
+end)
+
+MiscSection:NewButton("Inf Yeild", "admin commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+MiscSection:NewButton("Rizz", "W rizz frfr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikhailramlal/Rizzer/main/main"))()
+end)
+
+MiscSection:NewButton("Nimbus Hub", "best hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/corrupted0331/Nimbus-Hub/main/Nimbus-Hub"))()
+end)
+
+MiscSection:NewButton("Anti-AFK", "are you mentally ill?", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Yu12RUkY"))()
+end)
+
+--FE 
+local FE = Window:NewTab("FE")
+local FESection = FE:NewSection("FE")
+
+FESection:NewButton("Sussy Doll", "she be going crazy", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
+end)
+
+FESection:NewButton("Fe Laser Arm", "just for show", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/J9GdDpDj"))()
+end)
+
+--CREDITS
+local Credits = Window:NewTab("Credits")
+local FESection = Credits:NewSection("Credits")
+
+
+CreditsSection:NewLabel("discord:imgrieving")
+
+CreditsSection:NewKeybind("f", "open/close gui", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
